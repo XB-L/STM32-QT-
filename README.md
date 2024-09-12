@@ -6,7 +6,7 @@
 # QT上位机程序设计
 
 ## 1. 介绍
-![Alt text](1.png)
+![1](https://github.com/user-attachments/assets/5c431203-907e-45e6-a754-c70caf5781d4)
 
 ## 2. 数据传输格式
 通信的数据格式为JSON，QT自带JSON数据解析类，STM32需要向上位机发送指定JSON格式的数据如：`"{ \"name\": \"John\", \"age\": 30, \"city\": \"New York\" }"`。  QT通过解析即可得到每个标识符对应的数据。
